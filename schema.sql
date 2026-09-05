@@ -50,13 +50,13 @@ CREATE TABLE staging.employee(
 
 --Табоица бронирования--
 CREATE TABLE staging.booking(
-	id_booking SERIAL PRIMARY KEY,
-	id_contract INT REFERENCES staging.contract(id_contract),
-	id_employee INT REFERENCES staging.employee(id_employee),
+	id_booking   SERIAL   PRIMARY KEY,
+	id_contract  INT      REFERENCES staging.contract(id_contract),
+	id_employee  INT      REFERENCES staging.employee(id_employee),
 	booking_date DATE,
-	start_time TIME,
-	end_time TIME,
+	start_time   TIME,
+	end_time     TIME,
 	court_number INT,
-	hours_spent INT,
+	hours_spent  INT,
 	status booking_status DEFAULT 'booked'
 );

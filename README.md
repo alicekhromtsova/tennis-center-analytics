@@ -49,9 +49,9 @@ tennis-center-analytics/
   pip install psycopg2-binary
 3. Настроить подключение в файлах `generate_data.py`, `etl.py`, `generate_marts.py`, `operations.py`.
 4. Выполнить по порядку:
-  python generate_data.py
-  python etl.py
-  python generate_marts.py
+   - python generate_data.py
+   - python etl.py
+   - python generate_marts.py
 5. Запустить консольный интерфейс:
    python cli.py
 

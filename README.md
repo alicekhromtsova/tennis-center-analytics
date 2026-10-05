@@ -37,6 +37,7 @@ tennis-center-analytics/
 │   ├── dwh.sql
 │   └── marts.sql
 │
+├── pandas_analysis.py
 ├── generate_data.py
 ├── etl.py
 └── README.md
@@ -63,3 +64,4 @@ tennis-center-analytics/
 - `mart_court_load` — загруженность кортов.
 - Консольное меню: поиск клиента, регистрация, оформление и продление договора,
 бронирование корта, отметка посещения.
+- Pandas-аналитика: подсчёт клиентов, бронирований, загруженности кортов.
